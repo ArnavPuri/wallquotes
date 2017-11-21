@@ -2,21 +2,44 @@
 	padding-top: 200px;
 	padding-left: 30px;
 	padding-right: 30px;
-	background: url('../images/bg-1.jpg') center center no-repeat;
+	background: url('images/bg-1.jpg') center center no-repeat;
 	background-size: cover;
 	width: 100%;
 	height: 100vh;
-
+	-webkit-transition: opacity 3s ease-in-out;
+    -moz-transition: opacity 3s ease-in-out;
+    -o-transition: opacity 3s ease-in-out;
+    transition: opacity 3s ease-in-out;
 }
 
+.brand-image{
+	max-width: 100px;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+}
+
+.quote-box{
+	text-align: center;
+	width: 80%;
+	height: auto;
+	background-color:rgba(0, 0, 0, 0.5);
+	margin: 0 auto;
+}
 .author{
 	font-size: 20px;
 	
 	font-style: italic;
 	color: #f6e8ea;
+	padding-bottom: 40px;
 }
 
 .quote{
 	color: white;
 	text-shadow: 2px 2px #2e2e2e;
+	padding: 40px;
+}
+
+.footer pre{
+	color:white;
 }
